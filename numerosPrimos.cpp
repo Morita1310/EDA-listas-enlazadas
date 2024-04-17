@@ -1,3 +1,7 @@
+/*Escriba un programa que permita crear una lista enlazada de números aleatorios primos. El programa deberá mostrar la lista creada.*/
+
+//STL
+
 #include <iostream>
 #include <vector>
 #include <random>
