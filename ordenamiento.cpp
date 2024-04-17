@@ -35,15 +35,6 @@ void  imprimir(const Node* head) {
      cout <<  endl;
 }
 
-// funcion para limpiar la memoria de la lista
-void limpiar(Node*& head) {
-    while (head != nullptr) {
-        Node* temp = head;
-        head = head->next;
-        delete temp;
-    }
-}
-
 int main() {
     Node* head = nullptr;
     int cantidad;
@@ -59,7 +50,6 @@ int main() {
     }
      cout << "La lista ya fue ordenada y es ---->: ";
      imprimir(head);
-    limpiar(head);
 
     return 0;
 }
