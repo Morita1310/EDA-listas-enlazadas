@@ -121,8 +121,7 @@ int main()
 
     cout << "Ingrese la cantidad de numeros a ordenar: ";
     cin >> cantidad;
-
-    cout << "Ingrese los numeros enteros en orden creciente:";
+    
     for (int i = 0; i < cantidad; ++i)
     {
         cout << "Ingrese el numero : ";
