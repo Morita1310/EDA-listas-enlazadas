@@ -50,8 +50,9 @@ int main() {
      cout << "Digite la cantidad de numeros a ordenar : ";
      cin >> cantidad;
 
-     cout << "Ingrese los numeros para ordenarlo :\n";
     for (int i = 0; i < cantidad; ++i) {
+        
+     cout << "Digite los numeros para ordenarlo :\n";
         int numero;
          cin >> numero;
         insert(head, numero);
