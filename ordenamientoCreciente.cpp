@@ -122,15 +122,15 @@ int main()
     cout << "Ingrese la cantidad de numeros a ordenar: ";
     cin >> cantidad;
 
-    cout << "Ingrese los numeros enteros en orden creciente:\n";
+    cout << "Ingrese los numeros enteros en orden creciente:";
     for (int i = 0; i < cantidad; ++i)
     {
-        cout << "Ingrese el numero " << i + 1 << ": ";
+        cout << "Ingrese el numero : ";
         cin >> numero;
         lista = insertar_ordenado(lista, generar_nodo(numero));
     }
 
-    cout << "\nLista enlazada ordenada:" << endl;
+    cout << "\nLista enlazada ordenada ------>:" ;
     imprimir_lista(lista);
 
     return 0;
