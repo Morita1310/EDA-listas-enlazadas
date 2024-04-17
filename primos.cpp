@@ -88,7 +88,7 @@ int main()
         }
     }
 
-    cout << "Los numeros primos generados son: ";
+    cout << "Los numeros primos generados son: "<<endl;
     imprimir_lista(primosLis);
 
     liberar_lista(primosLis);
